@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CustomerContactService {
 
-    private final CustomerContactRepository customerContactRepository;
+    private CustomerContactRepository customerContactRepository;
 
     public CustomerContactService(CustomerContactRepository customerContactRepository) {
         this.customerContactRepository = customerContactRepository;
